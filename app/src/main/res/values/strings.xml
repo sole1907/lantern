@@ -1,3 +1,125 @@
 <resources>
-    <string name="app_name">Lantern</string>
+    <string name="app_name">TrustfundMobile</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="signin">Sign In</string>
+    <string name="signin_caps">SIGN IN</string>
+    <string name="register">Register</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="title_activity_register">REGISTER</string>
+    <string name="forgot_password_caps">FORGOT PASSWORD</string>
+    <string name="sample_question">What is your mother\'s maiden name?</string>
+    <string name="pin">Pin</string>
+    <string name="answer">Answer</string>
+    <string name="submit">Submit</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="current_bal_caps">CURRENT BALANCE</string>
+    <string name="app_title">Trustfund</string>
+    <string name="recent_activities_caps">RECENT ACTIVITIES</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="settings">SETTINGS</string>
+    <string name="title_activity_account_history1">AccountHistory1Activity</string>
+    <string name="account_history">ACCOUNT HISTORY</string>
+    <string name="view_history">VIEW HISTORY</string>
+    <string name="start_date">Start Date</string>
+    <string name="end_date">End Date</string>
+    <string name="title_activity_account_history2">AccountHistory2Activity</string>
+    <string name="title_activity_change_password">ChangePasswordActivity</string>
+    <string name="change_password">CHANGE PASSWORD</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="title_activity_contact_us">ContactUsActivity</string>
+    <string name="title_activity_pension_calculator">PensionCalculatorActivity</string>
+    <string name="contact_us">CONTACT US</string>
+    <string name="from">From</string>
+    <string name="message">Message</string>
+    <string name="send">Send</string>
+    <string name="call_us">Call Us Now!</string>
+    <string name="title_activity_my_profile">MyProfileActivity</string>
+    <string name="firstname">First Name</string>
+    <string name="lastname">Last Name</string>
+    <string name="email">Email</string>
+    <string name="mobile">Mobile No</string>
+    <string name="address">Address</string>
+    <string name="update_profile">UPDATE PROFILE</string>
+    <string name="my_profile">MY PROFILE</string>
+    <string name="title_activity_branch_locator">BranchLocatorActivity</string>
+    <string name="branches">BRANCHES</string>
+    <string name="get_directions">GET DIRECTIONS</string>
+    <string name="title_activity_faq">FAQActivity</string>
+    <string name="faqs">FAQS</string>
+    <string name="title_activity_social_media">SocialMediaActivity</string>
+    <string name="share_feedback">Share this app with friends</string>
+    <string name="connect_fb">Share on facebook</string>
+    <string name="connect_twitter">Share on Twitter</string>
+    <string name="connect_googleplus">Share on Google+</string>
+    <string name="social_networks">SOCIAL NETWORKS</string>
+    <string name="employer_contribution">Employer Contribution</string>
+    <string name="employee_contribution">Employee Contribution</string>
+    <string name="voluntary_contribution">Voluntary Contribution</string>
+    <string name="register_caps">REGISTER</string>
+    <string name="security_question">Security Question</string>
+    <string name="next">Next</string>
+
+    <string-array name="security_question_array">
+        <item>Security Question</item>
+        <item>In what city did your parents meet?</item>
+        <item>What is you Mother\'s maiden name?</item>
+        <item>What is your favourite tv show?</item>
+        <item>What is the name of the primary school you attended?</item>
+        <item>What is your favourite food?</item>
+    </string-array>
+    <string name="title_activity_show_push_popup">ShowPushPopupActivity</string>
+    <string name="ok">OK</string>
+    <string name="notice">NOTICE</string>
+    <string name="store_pass">density</string>
+    <string name="title_activity_statistics">StatisticsActivity</string>
+    <string name="statistics">STATISTICS</string>
+    <string name="total_contribution">Total Contribution</string>
+    <string name="vertical_axis_title">Value Date</string>
+    <string name="horizontal_axis_title">Bid Price</string>
+    <string name="abuja">ABUJA</string>
+    <string name="head_office">HEAD OFFICE</string>
+    <string name="pension_calculator">PENSION CALCULATOR</string>
+    <string name="monthly">Monthly</string>
+    <string name="total">Total</string>
+    <string name="initial_deposit">Initial Deposit (Optional)</string>
+    <string name="ngn">NGN</string>
+    <string name="monthly_contribution">Monthly Contribution</string>
+    <string name="current_age">Current Age</string>
+    <string name="years">YEARS</string>
+    <string name="retirement_age">Retirement Age</string>
+    <string name="calculate">CALCULATE</string>
+    <string name="interest_rate">Interest Rate</string>
+    <string name="percent_symbol">%</string>
+    <string name="withdrawal_years">Years of withdrawal after retirement</string>
+    <string name="calculate_monthly">Calculate monthly pension contribution</string>
+    <string name="targeted_value">Targeted Value</string>
+    <string name="calculate_future">Calculate based on future expected Pension</string>
+    <string name="pension">Pension</string>
+    <string name="monthly_withdrawals">Monthly Withdrawals</string>
+    <string name="monthly_deposit">Monthly Deposit Required</string>
+    <string name="title_activity_send_mail">SendMailActivity</string>
+    <string name="talk_to_us">TALK TO US</string>
+    <string name="skip_ad">Skip Ad</string>
+    <string name="title_activity_ad">AD</string>
+    <string name="join">JOIN</string>
+    <string name="already_a_member">Already a member?</string>
+    <string name="password_instructions">Password must be 6 or more characters</string>
+    <string name="verify_password">Verify Password</string>
+    <string name="title_activity_sign_in">SIGN IN</string>
+    <string name="dont_have_an_account">Don\'t have an account?</string>
+    <string name="signup">Sign Up</string>
+    <string name="title_activity_forgot_password">FORGOT PASSWORD</string>
+    <string name="send_my_password">SEND MY PASSWORD</string>
 </resources>

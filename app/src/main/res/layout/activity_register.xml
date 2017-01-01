@@ -1,0 +1,131 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="0dp"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="0dp"
+    tools:context="lantern.soconcepts.com.lantern.RegisterActivity">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/signinLayout"
+            android:layout_alignParentTop="true"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fillViewport="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/imageViewLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:paddingBottom="20dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/lantern_transparentbg" />
+
+                    </LinearLayout>
+
+                    <EditText
+                        android:id="@+id/firstname_text"
+                        style="@style/textfield_style"
+                        android:hint="@string/firstname" />
+
+                    <EditText
+                        android:id="@+id/lastname_text"
+                        style="@style/textfield_style"
+                        android:hint="@string/lastname" />
+
+                    <EditText
+                        android:id="@+id/email_text"
+                        style="@style/textfield_style"
+                        android:hint="@string/email"
+                        android:inputType="textEmailAddress" />
+
+                    <EditText
+                        android:id="@+id/password_text"
+                        style="@style/textfield_style"
+                        android:hint="@string/password" />
+
+                    <EditText
+                        android:id="@+id/verify_password_text"
+                        style="@style/textfield_style"
+                        android:hint="@string/verify_password" />
+
+                    <TextView
+                        android:id="@+id/introText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/imageViewLayout"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:paddingBottom="15dp"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:paddingTop="15dp"
+                        android:text="@string/password_instructions"
+                        android:textColor="@color/black"
+                        android:textSize="10sp" />
+
+                    <Button
+                        android:id="@+id/registerBtn"
+                        style="@style/button_style"
+                        android:layout_below="@id/introText"
+                        android:text="@string/register_caps" />
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/signinLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/lightgray"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:padding="2dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center_vertical"
+                android:layout_weight="0.6"
+                android:gravity="right"
+                android:text="@string/already_a_member"
+                android:textColor="@color/gray" />
+
+            <Button
+                android:id="@+id/signinBtn"
+                style="@style/link_button"
+                android:layout_width="0dp"
+                android:layout_weight="0.4"
+                android:gravity="left|center_vertical"
+                android:text="@string/signin" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>
